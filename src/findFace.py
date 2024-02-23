@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-face_cascade = cv.CascadeClassifier('Cascades/haarcascade_frontalface_default.xml') #From OpenCV (not my own training file)
+face_cascade = cv.CascadeClassifier('../Cascades/haarcascade_frontalface_default.xml') #From OpenCV (not my own training file)
 capture = cv.VideoCapture(0)
 capture.set(3, 500) #Width and height of camera frame
 capture.set(4,500)
