@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="214cdc55-9df4-4759-b483-11cbab88ab65" name="Changes" comment="refactoring">
-      <change afterPath="$PROJECT_DIR$/Cascades/haarcascade_eye.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eye_detection.py" afterDir="false" />
+    <list default="true" id="214cdc55-9df4-4759-b483-11cbab88ab65" name="Changes" comment="added eye detection file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cameraOn.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/findFace.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/find_face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eye_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/eye_detection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,7 @@
       <updated>1708117023428</updated>
       <workItem from="1708117025111" duration="2542000" />
       <workItem from="1708203864319" duration="3342000" />
-      <workItem from="1708266366515" duration="27751000" />
+      <workItem from="1708266366515" duration="28754000" />
     </task>
     <task id="LOCAL-00001" summary="Building a simple face recognition program">
       <option name="closed" value="true" />
@@ -157,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708782118758</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added eye detection file">
+      <option name="closed" value="true" />
+      <created>1708783096808</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708783096808</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,13 +184,14 @@
     <MESSAGE value="Building a simple face recognition program" />
     <MESSAGE value="directory edits" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="added eye detection file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added eye detection file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OpenCV$find_face.coverage" NAME="find_face Coverage Results" MODIFIED="1708782998450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/OpenCV$cameraOn.coverage" NAME="cameraOn Coverage Results" MODIFIED="1708781477608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenCV$findFace.coverage" NAME="findFace Coverage Results" MODIFIED="1708782012731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/OpenCV$eye_detection.coverage" NAME="eye_detection Coverage Results" MODIFIED="1708782991237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/OpenCV$eye_detection.coverage" NAME="eye_detection Coverage Results" MODIFIED="1708784002429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/OpenCV$main.coverage" NAME="cameraOn Coverage Results" MODIFIED="1708721176557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
